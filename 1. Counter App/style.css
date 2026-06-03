@@ -1,0 +1,28 @@
+.frist{
+    width: 200px;
+    height: 50px;
+    background-color: #110f0f;
+    color: hsl(253, 39%, 91%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 90px;
+    border: 3px solid black;
+}
+
+h2{
+     margin-left: 140px;
+}
+
+.master{
+    border: 2px solid black;
+    margin: 200px;
+    margin-right: 900px;
+}
+
+button{
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+}
