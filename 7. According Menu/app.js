@@ -7,10 +7,10 @@ btns.forEach((btn) => {
 
     btn.addEventListener("click", function(){
 
-          const panelRaj = btn.nextElementSibling;
+          const panel_current = btn.nextElementSibling;
 
         accordion_panels.forEach((panel)=>{
-            if(panel !== panelRaj){
+            if(panel !== panel_current){
                  panel.classList.remove("show");
 
             }
