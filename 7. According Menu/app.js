@@ -1,6 +1,6 @@
  const accordion_item  = document.querySelectorAll(".accordion-item")
  const btns = document.querySelectorAll(".accordion-header")
- const accordion_panels = document.querySelectorAll(".accordion-panel") // vo paragraph ka contant
+ const accordion_panels = document.querySelectorAll(".accordion-panel")  
 
 
 btns.forEach((btn) => {
