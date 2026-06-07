@@ -4,33 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul class="frist"> 
-        <li>Avinash</li>
-        <li>Dheeraj</li>
-        <li>Ramprakash</li>
-    </ul>
+    <label for="amount">Bill Amount:</label>
+ <input type="number" id="amount"  placeholder= "enter your amount">
+       <br>
+       <br>
+   <label for="tip">Tip %:</label>
+ <input type="number" id="tip"  placeholder=" enter tip%">
+   <br>
+ <button>Calculate</button>
 
-    <script>
-        // const ul = document.querySelector(".frist")
-        // ul.addEventListener("click", function(e){
-        //     if(e.target.tagName==="LI"){
-        //         e.target.parentElement.removeChild(e.target)
-        //     }
-        // })
-
-
-        const ul = document.querySelector(".frist");
-        ul.addEventListener("click", function(e) {
-          if (e.target.tagName === "LI") {
-            const delBtn = document.createElement("button")
-            delBtn.                                                                                                                               
-             e.target.remove()
-            }
-        });
+   <br>
    
-    </script>
-    
+     Tip Amount: <span class="frist"> <h5>0</h5></span>
+  
+  <br>
+ 
+     Total Amount:  <div class="second"><h5>0</h5></div> 
+ 
+
 </body>
+ <script src="app.js"></script>
 </html>

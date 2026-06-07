@@ -1,0 +1,15 @@
+.accordion-panel{
+    display: none;
+
+    border: 2px solid black;
+}
+
+.accordion-panel.show{
+    display: block;
+}
+
+.accordion-header{
+
+    margin: 10px;
+}
+

@@ -1,0 +1,20 @@
+.frist{
+    height: 200px;
+    width: 300px;
+    border: 2px solid rgb(44, 41, 41);
+    background-color: rgb(29, 192, 165);
+    margin: 20px;
+
+    display: flex;
+    flex-direction: row-reverse; /* Isse naya card hamesha sabse pehle (Left) aayega */
+    justify-content: flex-end;   /* Cards ko left side se chipka kar rakhne ke liye */
+    flex-wrap: wrap-reverse;     /* Jab line bhar jayegi, toh cards agli line mein chale jayenge */
+    padding: 20px;
+
+  
+}
+
+.delbtn{
+    margin: 160px;
+    margin-left: 240px;
+}

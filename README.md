@@ -2,44 +2,37 @@
 
 This repository contains multiple JavaScript mini projects created while learning JavaScript.
 
-## Projects
-
-1. Counter App
-2. Random Color Generator
-3. Tip Calculator
-
-
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-## Purpose
+## 1. BEGINNER PROJECTS
+ 1. Counter App
+ 2. Random Color Generator
+ 3. Tip Calculator
+ 4. BMI Calculator
+ 5. Digital Clock
 
-These projects were built to practice:
-- DOM Manipulation
-- Event Handling
-- Functions
-- Loops
-- Conditional Statements
-- Basic UI Development\
-
-
-/// const btn = document.querySelector(".frist")
-   btn.addEventListener("click", function(){
-    const card= document.createElement("div")
-        const delBtn= document.createElement("button")
-    card.innerText = "aviansh"
-    delBtn.innerText="Delete"
-      const h1 = document.querySelector(".second")
-    h1.append(card)
-    h1.append(delBtn)
-    
+ ## 2. DOM PROJECT
+ 6. Notes App
+ 7. According Menu
+ 8. Image Slider
+ 9. Form Validation
+ 10. To-Do List
 
 
-       delBtn.addEventListener("click", function () {
-        card.remove();
-        delBtn.remove();
-    });
-   })
+
+
+
+
+
+
+
+
+
+
+
+
+
