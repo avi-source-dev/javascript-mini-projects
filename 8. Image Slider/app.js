@@ -1,11 +1,6 @@
-// const images = document.querySelectorAll(".images")
-// console.log(images.children);
-
-
 const images = document.querySelector(".images");
 const leftBtn = document.querySelector(".left")
 const rightBtn = document.querySelector(".right")
-
 
 const set_img =["images/image1.jpg","images/image2.jpg" ,"images/image3.jpg" ]
  
@@ -22,16 +17,15 @@ leftBtn.addEventListener("click", function(){
     images.setAttribute("src", set_img[index])
 })
 
-// rightBtn.addEventListener("click", function(){
-//     index++
-//     if(index >= set_img.length){
-//         index=0
-//     }
-//     images.setAttribute("src", set_img[index])
-//      console.log(index)
-// })
+rightBtn.addEventListener("click", function(){
+    index++
+    if(index >= set_img.length){
+        index=0
+    }
+    images.setAttribute("src", set_img[index])
+     console.log(index)
+})
   
 console.log(set_img[1]);
 
 
-// console.log(images.children);
