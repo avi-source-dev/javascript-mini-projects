@@ -8,12 +8,9 @@ let index =0
 
 leftBtn.addEventListener("click", function(){
     index--
-      console.log(index)
     if(index<0){
     index = set_img.length-1
     }
-      console.log(index)
-  
     images.setAttribute("src", set_img[index])
 })
 
