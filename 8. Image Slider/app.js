@@ -22,7 +22,6 @@ rightBtn.addEventListener("click", function(){
     images.setAttribute("src", set_img[index])
      console.log(index)
 })
-  
-console.log(set_img[1]);
+
 
 
